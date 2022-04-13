@@ -1,0 +1,91 @@
+<!--This code is the original work for Group 14 of Computer Science Year 3, 2022, Makerere University, Kampala Uganda for the course unit of Principles of Programming, first programming assignment
+               GROUP 14 MEMBERS ARE: 
+  Kabiito Kenneth       1900716471  19/U/16471/EVE
+  Harold Rwothomio      1900717834  19/U/17834/EVE
+  Akol David            217020007   17/U/18575
+  Katwesigye Robinson   1900716593  19/U/16593/EVE -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>News App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="m-0 p-0">
+    <h1 id="h">News Feed App </h1>
+
+    <div class="container-fluid m-0 p-0">
+      <!--navbar-->
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand text-warning" href="#">News</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#local" id="local">Local News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#business" id="business">Business news</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#entertainment" id="entertainment">Entertainment</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#sports" id="sports">Sports News</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#weather" id="weather">Weather</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="text" id="queryNews" placeholder="Search news">
+        <button class="btn btn-outline-warning" type="button" id="searchBtn">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+      </div>
+
+      <!--news-->
+      <div>
+        <div class="row" id="typeN"></div>
+        <div class="row" id="details"></div>
+      </div>
+
+       <!--footer-->
+      <div>
+         <div>
+           <nav class="navbar navbar-expand-lg navbar-light bg-light mt-4">
+             <div class="container-fluid">
+               <h5 class="text-muted me-auto ms-auto">Group <span class="text-warning">14</span></h5>
+             </div>
+           </nav>
+         </div>
+      </div>
+
+    </div>
+    
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
